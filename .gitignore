@@ -1,0 +1,35 @@
+# =============================================
+# 视频缓存 & 生成产物
+# =============================================
+MoneyPrinterTurbo/storage/cache_videos/
+MoneyPrinterTurbo/storage/tasks/
+MoneyPrinterTurbo/storage/temp/
+tools/video-creator/output/
+tools/douyin-recreation/output/
+
+# =============================================
+# 资源文件（字体、音频）- 太大且非核心代码
+# =============================================
+MoneyPrinterTurbo/resource/fonts/
+MoneyPrinterTurbo/resource/songs/
+
+# =============================================
+# 抖音下载工具 - 下载的视频缓存
+# =============================================
+tools/douyin-downloader/Downloaded/
+tools/douyin-downloader/dy_downloader.db
+tools/douyin-downloader/__pycache__/
+
+# =============================================
+# 通用
+# =============================================
+*.log
+__pycache__/
+*.pyc
+.env
+.venv/
+node_modules/
+dist/
+build/
+.DS_Store
+Thumbs.db
